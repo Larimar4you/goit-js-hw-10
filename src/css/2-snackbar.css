@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-  }
-  
-  .form {
+}
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -14,34 +14,34 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  label, legend {
+}
+
+label, legend {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
-  }
-  
-  input[type='number'] {
+}
+
+input[type='number'] {
     border: 1px solid #808080;
     border-radius: 4px;
     padding: 8px;
     width: 200px;
     height: 40px;
-  }
-  
-  input[type='number']:hover {
+}
+
+input[type='number']:hover {
     border: 1px solid #000;
-  }
-  
-  input[type='number']:focus {
+}
+
+input[type='number']:focus {
     border: 1px solid #4CAF50;
-  }
-  
-  fieldset {
+}
+
+fieldset {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,29 +49,29 @@
     border: 1px solid #808080;
     width: 340px;
     gap: 48px; 
-  }
-  
-  fieldset label {
+}
+
+fieldset label {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
-  }
-  
-  fieldset input[type='radio'] {
+}
+
+fieldset input[type='radio'] {
     margin-right: 10px;
-  }
-  
-  input[type='radio']:hover {
+}
+
+input[type='radio']:hover {
     border: 1px solid #000;
-  }
-  
-  fieldset label {
+}
+
+fieldset label {
     font-weight: 500;
     cursor: pointer;
-  }
-  
-  .form button {
+}
+
+.form button {
     border-radius: 8px;
     padding: 8px 16px;
     width: 360px;
@@ -83,8 +83,8 @@
     color: #fff;
     background: #2196F3;
     cursor: pointer; 
-  }
-  
-  .form button:hover {
+}
+
+.form button:hover {
     background: #6c8cff;
-  }
+}
